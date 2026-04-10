@@ -136,6 +136,51 @@ button:hover {
   display: none;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.activity-card li,
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+  padding: 8px 10px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.participant-email {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+.remove-participant-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.remove-participant-btn:hover,
+.remove-participant-btn:focus {
+  background-color: rgba(198, 40, 40, 0.1);
+  color: #b71c1c;
+  outline: none;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
